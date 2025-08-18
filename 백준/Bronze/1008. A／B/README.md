@@ -27,11 +27,11 @@
  <p>첫째 줄에 A/B를 출력한다. 실제 정답과 출력값의 절대오차 또는 상대오차가 10<sup>-9</sup> 이하이면 정답이다.</p>
 
  String[] input = Console.ReadLine().Split(); => 입력받기
-  int A  = int.Parse(input[0]);
-  int B = int.Parsw(input[1]); 혹은
-  double A = double.Parse(input[0]);
-  double B = dpuble.Parse(input[1]); 로 써도된다.
+ <P> int A  = int.Parse(input[0]);</P>
+  <P> int B = int.Parsw(input[1]); 혹은</P>
+ <P>  double A = double.Parse(input[0]);</P>
+  <P> double B = dpuble.Parse(input[1]); 로 써도된다.</P>
 
-  또는 위의 int 를 그대로 냅두고 출력문에서 캐스팅 방법으로 double로 써도 된다.
-  Console.WriteLine((double) A / B);
+   <P>또는 위의 int 를 그대로 냅두고 출력문에서 캐스팅 방법으로 double로 써도 된다.</P>
+  <P> Console.WriteLine((double) A / B);</P>
 
