@@ -21,8 +21,16 @@
 ### 입력 
 
  <p>첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)</p>
+ <p>출력 : 첫째 줄에 A-B를 출력한다. </p>
 
 ### 출력 
 
- <p>첫째 줄에 A-B를 출력한다.</p>
+<p> string[] input = Console.ReadLine().Split(); </p>
+=> Console.ReadLine(). 사용자가 입력한 한 줄을 "문자열"로 받는다.
+
+=> .Split() 문자열을 공백 기준으로 잘라서 배열로 만든다
+
+int A = int.Parse(input[0]);
+int B = int.Parse(input[1]);
+
 
